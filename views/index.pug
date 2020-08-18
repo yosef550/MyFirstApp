@@ -1,0 +1,23 @@
+extend layout
+
+block layout-contect
+ div.indexDiv
+   h1 Hello!
+   h1.Banner 
+   img(src="SmallLuffy&Shancks.jpg" width="200" heigth="400")
+           
+    
+ div.dataUser
+    form(action="/user" method="POST")
+      label(for="fname") FirstName : 
+      input(type="text" id="fname" name="first_name" placeholder="your first name..")
+
+      label(for="lname") LastName:
+      input(type="text" id="lname" name="last_name" placeholder="your last name..")
+
+      label(for="email" ) Email:
+      input(type="text" id="email" name="email" placeholder="your email..")
+
+      button(type="submit" value="Submit") Click
+      a(href="/user") Go To User
+ 

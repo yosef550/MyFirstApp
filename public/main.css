@@ -1,0 +1,20 @@
+.indexDiv {background-color: aquamarine;} 
+
+input[type=text], select {
+    width: 20%;
+    padding: 3px 20px;
+    margin: 8px 1;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  #navbar{
+      height:10%;
+      width:100%;
+      background-image:liner;
+      position:fixed;
+      
+  }
+  
