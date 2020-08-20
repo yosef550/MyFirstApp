@@ -20,8 +20,12 @@ app.use(bodyParser.json());
 app.get('/',(req,res)=>{
     res.render("index")
 });
-app.post('/user' ,(req,res)=>{
-res.render("user" ,{
+app.route('/user')
+    .get((req,res)=>{
+        res.render('pageNotFound')
+    })
+    .post((req,res)=>{
+        res.render("user" ,{
     user:{
         firstname:req.body.first_name,
         lastName:req.body.last_name,

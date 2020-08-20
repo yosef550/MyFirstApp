@@ -1,11 +1,14 @@
 extend layout
 
 block layout-contect
+ div#navbar 
+ div#sidebar
  div.indexDiv
    h1 Hello!
    h1.Banner 
-   img(src="SmallLuffy&Shancks.jpg" width="200" heigth="400")
-           
+   img(src="SmallLuffy&Shancks.jpg" width="100" heigth="180")
+   img(src="zoro.png" width="100" heigth="200")
+   img(src="Luffy&ShanksLostHand.png" width="100" heigth="200")
     
  div.dataUser
     form(action="/user" method="POST")
@@ -19,5 +22,6 @@ block layout-contect
       input(type="text" id="email" name="email" placeholder="your email..")
 
       button(type="submit" value="Submit") Click
-      a(href="/user") Go To User
+
+    a(href="/user") Go To User
  

@@ -1,4 +1,7 @@
-.indexDiv {background-color: aquamarine;} 
+.indexDiv {background-color: aquamarine;
+
+
+} 
 
 input[type=text], select {
     width: 20%;
@@ -11,10 +14,23 @@ input[type=text], select {
   }
 
   #navbar{
+    background-color:black;
       height:10%;
       width:100%;
       background-image:liner;
       position:fixed;
       
+  }
+  
+  #sidebar{
+    background-color:green;
+    height:100%;
+    width:10%;
+    background-image:liner;
+    position:fixed;
+    
+}
+  #pageNotFound{
+
   }
   
